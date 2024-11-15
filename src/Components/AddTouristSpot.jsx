@@ -28,7 +28,7 @@ function AddTouristSpot() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:5000/spots", {
+    fetch("https://peace-finder-server.onrender.com/spots", {
       method: "POST",
       headers: {
         "content-type": "application/json",

@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const maldivesData = [
   {
-    image: "../../../public/image/Maldives/male-atoll.webp",
+    image: "/image/Maldives/male-atoll.webp",
     tourists_spot_name: "Malé Atoll",
     country_name: "Maldives",
     location: "Malé",
@@ -21,7 +21,7 @@ const maldivesData = [
     total_visitors_per_year: "250000",
   },
   {
-    image: "../../../public/image/Maldives/Biyadhoo-Island.jpeg",
+    image: "/image/Maldives/Biyadhoo-Island.jpeg",
     tourists_spot_name: "Biyadhoo Island",
     country_name: "Maldives",
     location: "Kaafu Atoll",
@@ -33,7 +33,7 @@ const maldivesData = [
     total_visitors_per_year: "180000",
   },
   {
-    image: "../../../public/image/Maldives/Maafushi-Island.jpeg",
+    image: "/image/Maldives/Maafushi-Island.jpeg",
     tourists_spot_name: "Maafushi Island",
     country_name: "Maldives",
     location: "Kaafu Atoll",
@@ -45,7 +45,7 @@ const maldivesData = [
     total_visitors_per_year: "220000",
   },
   {
-    image: "../../../public/image/Maldives/Banana-Reef.jpeg",
+    image: "/image/Maldives/Banana-Reef.jpeg",
     tourists_spot_name: "Banana Reef",
     country_name: "Maldives",
     location: "North Malé Atoll",
@@ -57,7 +57,7 @@ const maldivesData = [
     total_visitors_per_year: "150000",
   },
   {
-    image: "../../../public/image/Maldives/hulhumale-maldives.webp",
+    image: "/image/Maldives/hulhumale-maldives.webp",
     tourists_spot_name: "Hulhumale Island",
     country_name: "Maldives",
     location: "North Malé Atoll",
@@ -69,7 +69,7 @@ const maldivesData = [
     total_visitors_per_year: "140000",
   },
   {
-    image: "../../../public/image/Maldives/Addu-Atoll.jpg",
+    image: "/image/Maldives/Addu-Atoll.jpg",
     tourists_spot_name: "Addu Atoll",
     country_name: "Maldives",
     location: "Addu City",
@@ -85,7 +85,7 @@ const maldivesData = [
 const Maldives = () => {
   return (
     <div className="bg-blue-50 py-12 px-6">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
         Tourist Spots in the Maldives
       </h2>
       <div className="flex justify-start mb-8 max-w-screen-lg mx-auto">

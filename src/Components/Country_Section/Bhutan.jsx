@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const bhutanData = [
   {
-    image: "../../../public/image/Bhutan/Paro-Taktsang.avif",
+    image: "/image/Bhutan/Paro-Taktsang.avif",
     tourists_spot_name: "Paro Taktsang (Tiger's Nest Monastery)",
     country_name: "Bhutan",
     location: "Paro",
@@ -21,7 +21,7 @@ const bhutanData = [
     total_visitors_per_year: "70000",
   },
   {
-    image: "../../../public/image/Bhutan/dzong-Punakha.webp",
+    image: "/image/Bhutan/dzong-Punakha.webp",
     tourists_spot_name: "Punakha Dzong",
     country_name: "Bhutan",
     location: "Punakha",
@@ -33,7 +33,7 @@ const bhutanData = [
     total_visitors_per_year: "60000",
   },
   {
-    image: "../../../public/image/Bhutan/Thimphu.jpeg",
+    image: "/image/Bhutan/Thimphu.jpeg",
     tourists_spot_name: "Thimphu",
     country_name: "Bhutan",
     location: "Thimphu",
@@ -45,7 +45,7 @@ const bhutanData = [
     total_visitors_per_year: "150000",
   },
   {
-    image: "../../../public/image/Bhutan/Buddha-Dordenma-Statue.jpeg",
+    image: "/image/Bhutan/Buddha-Dordenma-Statue.jpeg",
     tourists_spot_name: "Buddha Dordenma Statue",
     country_name: "Bhutan",
     location: "Thimphu",
@@ -57,7 +57,7 @@ const bhutanData = [
     total_visitors_per_year: "100000",
   },
   {
-    image: "../../../public/image/Bhutan/Phobjikha-Valley.jpeg",
+    image: "/image/Bhutan/Phobjikha-Valley.jpeg",
     tourists_spot_name: "Phobjikha Valley",
     country_name: "Bhutan",
     location: "Wangdue Phodrang",
@@ -69,7 +69,7 @@ const bhutanData = [
     total_visitors_per_year: "30000",
   },
   {
-    image: "../../../public/image/Bhutan/dochula-pass-chorten.jpg",
+    image: "/image/Bhutan/dochula-pass-chorten.jpg",
     tourists_spot_name: "Dochula Pass",
     country_name: "Bhutan",
     location: "Thimphu-Punakha Road",
@@ -85,7 +85,7 @@ const bhutanData = [
 const Bhutan = () => {
   return (
     <div className="bg-blue-50 py-12 px-6">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
         Tourist Spots in Bhutan
       </h2>
       <div className="flex justify-start mb-8 max-w-screen-lg mx-auto">

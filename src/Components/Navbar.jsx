@@ -52,12 +52,12 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 bg-red-500 p-2 shadow lg:hidden"
+            className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 bg-blue-500 p-2 shadow lg:hidden"
           >
             {navLinks}
           </ul>
         </div>
-        <a className="rounded-tl-full rounded-br-full bg-black text-lg md:text-3xl lg:text-4xl text-red-500 px-8 py-3 font-bold italic transform -rotate-3 shadow-lg my-3 ">
+        <a className="rounded-tl-full rounded-br-full bg-black text-sm md:text-3xl lg:text-4xl text-red-500 px-4 lg:px-8 py-3 font-bold italic transform -rotate-3 shadow-lg my-3 ">
           PEACE FINDER
         </a>
       </div>

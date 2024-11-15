@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const sriLankaData = [
   {
-    image: "../../../public/image/Srilanka/Sigiriya-Rock-Fortress.jpg",
+    image: "/image/Srilanka/Sigiriya-Rock-Fortress.jpg",
     tourists_spot_name: "Sigiriya Rock Fortress",
     country_name: "Sri Lanka",
     location: "Sigiriya",
@@ -21,7 +21,7 @@ const sriLankaData = [
     total_visitors_per_year: "120000",
   },
   {
-    image: "../../../public/image/Srilanka/Ella.jpg",
+    image: "/image/Srilanka/Ella.jpg",
     tourists_spot_name: "Ella",
     country_name: "Sri Lanka",
     location: "Ella",
@@ -33,7 +33,7 @@ const sriLankaData = [
     total_visitors_per_year: "90000",
   },
   {
-    image: "../../../public/image/Srilanka/Yala-National-Park.jpeg",
+    image: "/image/Srilanka/Yala-National-Park.jpeg",
     tourists_spot_name: "Yala National Park",
     country_name: "Sri Lanka",
     location: "Yala",
@@ -45,7 +45,7 @@ const sriLankaData = [
     total_visitors_per_year: "110000",
   },
   {
-    image: "../../../public/image/Srilanka/Temple-of-the-Tooth-header.jpg",
+    image: "/image/Srilanka/Temple-of-the-Tooth-header.jpg",
     tourists_spot_name: "Temple of the Tooth",
     country_name: "Sri Lanka",
     location: "Kandy",
@@ -57,7 +57,7 @@ const sriLankaData = [
     total_visitors_per_year: "130000",
   },
   {
-    image: "../../../public/image/Srilanka/Galle-Fort.jpg",
+    image: "/image/Srilanka/Galle-Fort.jpg",
     tourists_spot_name: "Galle Fort",
     country_name: "Sri Lanka",
     location: "Galle",
@@ -69,7 +69,7 @@ const sriLankaData = [
     total_visitors_per_year: "80000",
   },
   {
-    image: "../../../public/image/Srilanka/Mirissa Beach.jpeg",
+    image: "/image/Srilanka/Mirissa Beach.jpeg",
     tourists_spot_name: "Mirissa Beach",
     country_name: "Sri Lanka",
     location: "Mirissa",
@@ -85,7 +85,7 @@ const sriLankaData = [
 const SriLanka = () => {
   return (
     <div className="bg-blue-50 py-12 px-6">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
         Tourist Spots in Srilanka
       </h2>
       <div className="flex justify-start mb-8 max-w-screen-lg mx-auto">

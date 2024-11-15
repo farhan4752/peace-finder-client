@@ -17,7 +17,7 @@ const SpotDetails = () => {
   const [spot, setSpot] = useState(null);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/spots/${id}`)
+    fetch(`https://peace-finder-server.onrender.com/spots/${id}`)
       .then((response) => response.json())
       .then((data) => setSpot(data))
       .catch((error) => console.error("Error fetching spot details:", error));
@@ -29,7 +29,7 @@ const SpotDetails = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 py-10 px-4 lg:px-8">
-      <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+      <h1 className="text-2xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
         Details of {spot.tourists_spot_name}
       </h1>
       <div className="bg-white shadow-lg rounded-lg overflow-hidden max-w-4xl mx-auto">

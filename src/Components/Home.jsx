@@ -15,11 +15,11 @@ const Home = () => {
 
   return (
     <div>
-      <div className="min-h-screen bg-gray-100 py-10 px-4 lg:px-8">
-        <h2 className="text-3xl font-bold text-center mb-6">
+      <div className="min-h-screen py-10 px-4 lg:px-8">
+        <h2 className="text-2xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
           Our featured Tourist Spots
         </h2>
-        <p className="text-lg text-center text-gray-600 mb-10 font-cursive italic w-[500px] lg:w-[800px]  mx-auto">
+        <p className="text-sm lg:text-xl text-center text-gray-600 mb-10 font-mono italic w-[300px] lg:w-[800px]  mx-auto">
           Discover our handpicked selection of top tourist destinations, each
           offering unique experiences and stunning sights to inspire your next
           adventure.

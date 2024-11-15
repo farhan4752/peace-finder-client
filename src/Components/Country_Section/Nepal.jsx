@@ -8,7 +8,7 @@ import {
 import { Link } from "react-router-dom";
 const nepalData = [
   {
-    image: "../../../public/image/Nepal/Everest.jpeg",
+    image: "/image/Nepal/Everest.jpeg",
     tourists_spot_name: "Everest Base Camp",
     country_name: "Nepal",
     location: "Solukhumbu",
@@ -20,7 +20,7 @@ const nepalData = [
     total_visitors_per_year: "50000",
   },
   {
-    image: "../../../public/image/Nepal/Pokhara.jpeg",
+    image: "/image/Nepal/Pokhara.jpeg",
     tourists_spot_name: "Pokhara",
     country_name: "Nepal",
     location: "Kaski",
@@ -32,7 +32,7 @@ const nepalData = [
     total_visitors_per_year: "300000",
   },
   {
-    image: "../../../public/image/Nepal/Lumbini.jpeg",
+    image: "/image/Nepal/Lumbini.jpeg",
     tourists_spot_name: "Lumbini",
     country_name: "Nepal",
     location: "Rupandehi",
@@ -44,7 +44,7 @@ const nepalData = [
     total_visitors_per_year: "150000",
   },
   {
-    image: "../../../public/image/Nepal/Chitwan National Park.jpeg",
+    image: "/image/Nepal/Chitwan National Park.jpeg",
     tourists_spot_name: "Chitwan National Park",
     country_name: "Nepal",
     location: "Chitwan",
@@ -56,7 +56,7 @@ const nepalData = [
     total_visitors_per_year: "100000",
   },
   {
-    image: "../../../public/image/Nepal/pashupatinath.jpg",
+    image: "/image/Nepal/pashupatinath.jpg",
     tourists_spot_name: "Pashupatinath Temple",
     country_name: "Nepal",
     location: "Kathmandu",
@@ -68,7 +68,7 @@ const nepalData = [
     total_visitors_per_year: "200000",
   },
   {
-    image: "../../../public/image/Nepal/Annapurna Circuit.jpeg",
+    image: "/image/Nepal/Annapurna Circuit.jpeg",
     tourists_spot_name: "Annapurna Circuit",
     country_name: "Nepal",
     location: "Annapurna",
@@ -84,7 +84,7 @@ const nepalData = [
 const Nepal = () => {
   return (
     <div className="bg-blue-50 py-12 px-6">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
         Tourist Spots in Nepal
       </h2>
       <div className="flex justify-start mb-8 max-w-screen-lg mx-auto">

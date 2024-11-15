@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const bangladeshData = [
   {
-    image: "../../../public/image/Bangladesh/Sundarban.jpg",
+    image: "/image/Bangladesh/Sundarban.jpg",
     tourists_spot_name: "Sundarbans ",
     country_name: "Bangladesh",
     location: "Khulna",
@@ -21,7 +21,7 @@ const bangladeshData = [
     total_visitors_per_year: "120000",
   },
   {
-    image: "../../../public/image/Bangladesh/cox's bazar.jpg",
+    image: "/image/Bangladesh/cox's bazar.jpg",
     tourists_spot_name: "Cox's Bazar Beach",
     country_name: "Bangladesh",
     location: "Cox's Bazar",
@@ -33,7 +33,7 @@ const bangladeshData = [
     total_visitors_per_year: "500000",
   },
   {
-    image: "../../../public/image/Bangladesh/Ratargul.jpg",
+    image: "/image/Bangladesh/Ratargul.jpg",
     tourists_spot_name: "Ratargul Swamp Forest",
     country_name: "Bangladesh",
     location: "Sylhet",
@@ -45,7 +45,7 @@ const bangladeshData = [
     total_visitors_per_year: "60000",
   },
   {
-    image: "../../../public/image/Bangladesh/Sajek-Valley.jpg",
+    image: "/image/Bangladesh/Sajek-Valley.jpg",
     tourists_spot_name: "Sajek Valley",
     country_name: "Bangladesh",
     location: "Rangamati",
@@ -57,7 +57,7 @@ const bangladeshData = [
     total_visitors_per_year: "45000",
   },
   {
-    image: "../../../public/image/Bangladesh/Jaflong.webp",
+    image: "/image/Bangladesh/Jaflong.webp",
     tourists_spot_name: "Jaflong",
     country_name: "Bangladesh",
     location: "Sylhet",
@@ -70,7 +70,7 @@ const bangladeshData = [
   },
 
   {
-    image: "../../../public/image/Bangladesh/Tanguar Haor.jpg",
+    image: "/image/Bangladesh/Tanguar Haor.jpg",
     tourists_spot_name: "Tanguar Haor",
     country_name: "Bangladesh",
     location: "Sunamganj",
@@ -86,7 +86,7 @@ const bangladeshData = [
 const Bangladesh = () => {
   return (
     <div className="bg-blue-50 py-12 px-6">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
         Tourist Spots in Bangladesh
       </h2>
       <div className="flex justify-start mb-8 max-w-screen-lg mx-auto">

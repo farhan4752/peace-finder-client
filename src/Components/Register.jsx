@@ -54,7 +54,7 @@ const Register = () => {
         const user = { email, createdAt, name, photo };
 
         // Save user info to the server
-        fetch("http://localhost:5000/user", {
+        fetch("https://peace-finder-server.onrender.com/user", {
           method: "POST",
           headers: {
             "content-type": "application/json",

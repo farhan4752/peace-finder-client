@@ -15,7 +15,7 @@ const Users = () => {
       dangerMode: true,
     }).then((willDelete) => {
       if (willDelete) {
-        fetch(`http://localhost:5000/user/${_id}`, {
+        fetch(`https://peace-finder-server.onrender.com/user/${_id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())

@@ -31,12 +31,12 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("http://localhost:5000/spots"),
+        loader: () => fetch("https://peace-finder-server.onrender.com/spots"),
       },
       {
         path: "/allTouristSpots",
         element: <AllTouristSpots></AllTouristSpots>,
-        loader: () => fetch("http://localhost:5000/spots"),
+        loader: () => fetch("https://peace-finder-server.onrender.com/spots"),
       },
       {
         path: "/Bangladesh",
@@ -69,7 +69,7 @@ const router = createBrowserRouter([
             <MyList></MyList>
           </PrivateRouter>
         ),
-        loader: () => fetch("http://localhost:5000/spots"),
+        loader: () => fetch("https://peace-finder-server.onrender.com/spots"),
       },
       {
         path: "/register",
@@ -95,18 +95,18 @@ const router = createBrowserRouter([
           </PrivateRouter>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/spots/${params.id}`),
+          fetch(`https://peace-finder-server.onrender.com/spots/${params.id}`),
       },
       {
         path: "/updateMySpot/:id",
         element: <UpdateMySpot></UpdateMySpot>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/spots/${params.id}`),
+          fetch(`https://peace-finder-server.onrender.com/spots/${params.id}`),
       },
       {
         path: "/users",
         element: <Users></Users>,
-        loader: () => fetch("http://localhost:5000/user"),
+        loader: () => fetch("https://peace-finder-server.onrender.com/user"),
       },
       {
         path: "/blogs",

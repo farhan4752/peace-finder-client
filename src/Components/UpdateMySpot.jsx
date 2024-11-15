@@ -40,7 +40,7 @@ const UpdateMySpot = () => {
     console.log(updatedSpot);
 
     // Send updated data to the server
-    fetch(`http://localhost:5000/spots/${spot._id}`, {
+    fetch(`https://peace-finder-server.onrender.com/spots/${spot._id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

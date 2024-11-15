@@ -8,7 +8,7 @@ import {
 import { Link } from "react-router-dom";
 const indiaData = [
   {
-    image: "../../../public/image/india/tajMahal.jpeg",
+    image: "/image/india/tajMahal.jpeg",
     tourists_spot_name: "Taj Mahal",
     country_name: "India",
     location: "Agra",
@@ -20,7 +20,7 @@ const indiaData = [
     total_visitors_per_year: "7000000",
   },
   {
-    image: "../../../public/image/india/jaipurCityPlace.jpg",
+    image: "/image/india/jaipurCityPlace.jpg",
     tourists_spot_name: "Jaipur City Palace",
     country_name: "India",
     location: "Jaipur",
@@ -32,7 +32,7 @@ const indiaData = [
     total_visitors_per_year: "500000",
   },
   {
-    image: "../../../public/image/india/Traditional-Kerala-Houseboat.webp",
+    image: "/image/india/Traditional-Kerala-Houseboat.webp",
     tourists_spot_name: "Backwaters of Kerala",
     country_name: "India",
     location: "Kerala",
@@ -44,7 +44,7 @@ const indiaData = [
     total_visitors_per_year: "200000",
   },
   {
-    image: "../../../public/image/india/Leh-Ladakh.jpeg",
+    image: "/image/india/Leh-Ladakh.jpeg",
     tourists_spot_name: "Leh-Ladakh",
     country_name: "India",
     location: "Ladakh",
@@ -55,7 +55,7 @@ const indiaData = [
     total_visitors_per_year: "150000",
   },
   {
-    image: "../../../public/image/india/goaBeach.webp",
+    image: "/image/india/goaBeach.webp",
     tourists_spot_name: "Goa Beach",
     country_name: "India",
     location: "Goa",
@@ -67,7 +67,7 @@ const indiaData = [
     total_visitors_per_year: "600000",
   },
   {
-    image: "../../../public/image/india/varanasi.webp",
+    image: "/image/india/varanasi.webp",
     tourists_spot_name: "Varanasi Ghats",
     country_name: "India",
     location: "Varanasi",
@@ -83,7 +83,7 @@ const indiaData = [
 const India = () => {
   return (
     <div className="bg-blue-50 py-12 px-6">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-8">
+      <h2 className="text-xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
         Tourist Spots in India
       </h2>
       <div className="flex justify-start mb-8 max-w-screen-lg mx-auto">

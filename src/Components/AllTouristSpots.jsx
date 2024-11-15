@@ -14,10 +14,10 @@ const AllTouristSpots = () => {
   return (
     <div>
       <div className="min-h-screen bg-gray-100 py-10 px-4 lg:px-8">
-        <h2 className="text-3xl font-bold text-center mb-6">
+        <h2 className="text-xl lg:text-3xl font-bold text-center mb-6 text-blue-500 font-Times_New_Roman">
           Discover Enchanting Tourist Spots
         </h2>
-        <p className="text-lg text-center text-gray-600 mb-10 font-cursive italic w-[500px] lg:w-[800px]  mx-auto">
+        <p className="text-sm lg:text-xl text-center text-gray-600 mb-10 font-mono italic w-[300px] lg:w-[800px]  mx-auto">
           Explore a curated collection of breathtaking tourist destinations.
           Each spot features stunning images and essential details, including
           the country, location, and average cost, to help you plan your perfect
